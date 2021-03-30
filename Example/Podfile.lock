@@ -1,0 +1,55 @@
+PODS:
+  - AliyunOSSiOS (2.10.8)
+  - CocoaAsyncSocket (7.6.5)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Masonry (1.1.0)
+  - MJExtension (3.2.4)
+  - OpenCV (4.1.0)
+  - SDWebImage (5.10.4):
+    - SDWebImage/Core (= 5.10.4)
+  - SDWebImage/Core (5.10.4)
+  - SMSkinMagnifierSDK (0.1.0):
+    - AliyunOSSiOS
+    - CocoaAsyncSocket
+    - FMDB
+    - Masonry
+    - MJExtension
+    - OpenCV
+    - SDWebImage
+    - SVProgressHUD
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - SMSkinMagnifierSDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AliyunOSSiOS
+    - CocoaAsyncSocket
+    - FMDB
+    - Masonry
+    - MJExtension
+    - OpenCV
+    - SDWebImage
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  SMSkinMagnifierSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AliyunOSSiOS: 8db92936545593b9e5c66d680ef2ac0738946651
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 88e0900751b6cac8de1cf724ca9838a0b28d5acb
+  OpenCV: 52cd4d72ff29e2be83421477aec5447320b7fb19
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
+  SMSkinMagnifierSDK: f2301c17e92fa5188ce2b93be1b29c980c04ac3c
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 057fae8aac3adb782b5915dc91f7f30473b8c177
+
+COCOAPODS: 1.10.1
