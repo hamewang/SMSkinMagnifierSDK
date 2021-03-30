@@ -30,7 +30,7 @@ moreme水肤镜SDK包含检测和报告
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'SMSkinMagnifierSDK/Classes/**/*'
+#  s.source_files = 'SMSkinMagnifierSDK/Classes/**/*'
   
   # s.resource_bundles = {
   #   'SMSkinMagnifierSDK' => ['SMSkinMagnifierSDK/Assets/*.png']
