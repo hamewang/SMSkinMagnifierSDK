@@ -16,6 +16,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 根据用户名字创建，code:201 代表创建失败
 - (void)createUserWithUserName:(NSString *)userName success:(void (^)(NSDictionary *responseObject))success;
+
+/// 根据cid 和 cgid 返回报告页面数据
+
+- (void)requestReportWithcid:(NSString *)cid cgid:(NSString *)cgid success:(void (^)(NSDictionary *responseObject))success;
 @end
 
 NS_ASSUME_NONNULL_END

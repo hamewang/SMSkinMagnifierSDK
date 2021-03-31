@@ -40,29 +40,41 @@
     UIButton *createUserBtn  = [[UIButton alloc] init];
     [createUserBtn setTitle:@"创建顾客" forState:UIControlStateNormal];
     createUserBtn.backgroundColor = [UIColor redColor];
-    createUserBtn.frame = CGRectMake(0, 100, 50, 50);
+    createUserBtn.frame = CGRectMake(50, 100, 100, 50);
     [createUserBtn addTarget:self action:@selector(createUserBtnClick:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:createUserBtn];
+    
+    UIButton *reportBtn  = [[UIButton alloc] init];
+    [reportBtn setTitle:@"报告数据" forState:UIControlStateNormal];
+    reportBtn.backgroundColor = [UIColor redColor];
+    reportBtn.frame = CGRectMake(200, 100, 100, 50);
+    [reportBtn addTarget:self action:@selector(reportBtnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:reportBtn];
 
     UIButton  *btn = [[UIButton alloc] init];
     [btn setTitle:@"照片" forState:UIControlStateNormal];
     btn.backgroundColor = [UIColor redColor];
-    btn.frame = CGRectMake(100, 100, 50, 50);
+    btn.frame = CGRectMake(50, 200, 50, 50);
     [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
     
     UIButton  *btn1 = [[UIButton alloc] init];
     [btn1 setTitle:@"报告" forState:UIControlStateNormal];
     btn1.backgroundColor = [UIColor redColor];
-    btn1.frame = CGRectMake(200, 100, 50, 50);
+    btn1.frame = CGRectMake(200, 200, 50, 50);
     [btn1 addTarget:self action:@selector(btnClick1:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn1];
     
-    self.cid = @"34618";
-   
+    self.cid = @"34627";
+    self.cgid = @"21E1B7DAC77243F195CC9E923FAC3F6E";
 
 }
 
+- (void)reportBtnClick:(UIButton *)btn {
+    [[SMSkinMagnifierSDKConfig share] requestReportWithcid:self.cid cgid:self.cgid success:^(NSDictionary * _Nonnull responseObject) {
+        NSLog(@"%@",responseObject);
+    }];
+}
 - (void)createUserBtnClick:(UIButton *)btn {
     [[SMSkinMagnifierSDKConfig share] createUserWithUserName:@"xxx" success:^(NSDictionary * _Nonnull responseObject) {
         if ([responseObject[@"code"] intValue] == 200) {
@@ -71,7 +83,13 @@
  
     }];
 }
+/*
+ 
+ 
 
+ (lldb) po self.cgid
+ 
+ **/
 
 - (void)btnClick1:(UIButton *)btn {
     SMReportInputModel *inputModel = [[SMReportInputModel alloc] init];
