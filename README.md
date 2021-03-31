@@ -1,9 +1,9 @@
-# MMTakeImage
+# SMSkinMagnifierSDK
 
-[![CI Status](https://img.shields.io/travis/304635659@qq.com/MMTakeImage.svg?style=flat)](https://travis-ci.org/304635659@qq.com/MMTakeImage)
-[![Version](https://img.shields.io/cocoapods/v/MMTakeImage.svg?style=flat)](https://cocoapods.org/pods/MMTakeImage)
-[![License](https://img.shields.io/cocoapods/l/MMTakeImage.svg?style=flat)](https://cocoapods.org/pods/MMTakeImage)
-[![Platform](https://img.shields.io/cocoapods/p/MMTakeImage.svg?style=flat)](https://cocoapods.org/pods/MMTakeImage)
+[![CI Status](https://img.shields.io/travis/304635659@qq.com/SMSkinMagnifierSDK.svg?style=flat)](https://travis-ci.org/304635659@qq.com/SMSkinMagnifierSDK)
+[![Version](https://img.shields.io/cocoapods/v/SMSkinMagnifierSDK.svg?style=flat)](https://cocoapods.org/pods/SMSkinMagnifierSDK)
+[![License](https://img.shields.io/cocoapods/l/SMSkinMagnifierSDK.svg?style=flat)](https://cocoapods.org/pods/SMSkinMagnifierSDK)
+[![Platform](https://img.shields.io/cocoapods/p/SMSkinMagnifierSDK.svg?style=flat)](https://cocoapods.org/pods/SMSkinMagnifierSDK)
 
 ## Example
 
@@ -13,11 +13,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-MMTakeImage is available through [CocoaPods](https://cocoapods.org). To install
+SMSkinMagnifierSDK is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'MMTakeImage', :git => 'https://github.com/hamewang/SMSkinMagnifierSDK.git',:branch => 'master'
+pod 'SMSkinMagnifierSDK', :git => 'https://github.com/hamewang/SMSkinMagnifierSDK.git',:branch => 'master'
 ```
 ## Usage
  Xcode工程添加获取Wi-Fi信息授权
@@ -66,5 +66,5 @@ SMReportView *tView = [[SMReportView alloc] initWithFrame:self.view.bounds input
 
 ## License
 
-MMTakeImage is available under the MIT license. See the LICENSE file for more info.
+SMSkinMagnifierSDK is available under the MIT license. See the LICENSE file for more info.
 

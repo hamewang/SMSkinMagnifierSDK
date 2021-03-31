@@ -58,7 +58,7 @@
     [btn1 addTarget:self action:@selector(btnClick1:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn1];
     
-    self.cid = @"34576";
+    self.cid = @"34618";
    
 
 }
@@ -71,13 +71,7 @@
  
     }];
 }
-/*
- 
- 
 
- (lldb) po self.cgid
- 
- **/
 
 - (void)btnClick1:(UIButton *)btn {
     SMReportInputModel *inputModel = [[SMReportInputModel alloc] init];
