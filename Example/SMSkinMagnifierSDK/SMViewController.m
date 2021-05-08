@@ -35,7 +35,7 @@
     [super viewDidLoad];
     self.navigationController.navigationBar.hidden = YES;
     
-    [[SMSkinMagnifierSDKConfig share] setupSDKWithMid:@"1480" token:@"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MTczNzE3NjAsImp0aSI6IjE0ODAifQ.NoSBQ3ejFj8gPZdDeyKGTbSyesSVLta4U34Qx_vgPkI"];
+    [[SMSkinMagnifierSDKConfig share] setupSDKWithMid:@"1480" token:@"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MjA3NzA3ODYsImp0aSI6IjE0ODAifQ.4a6d0qugorvEFqS47yrJQn-9_EsXtxjo1D_vHAS22F4"];
     
     UIButton *createUserBtn  = [[UIButton alloc] init];
     [createUserBtn setTitle:@"创建顾客" forState:UIControlStateNormal];
@@ -65,8 +65,8 @@
     [btn1 addTarget:self action:@selector(btnClick1:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn1];
     
-    self.cid = @"34627";
-    self.cgid = @"21E1B7DAC77243F195CC9E923FAC3F6E";
+    self.cid = @"35295";
+    self.cgid = @"BFD34E0C8A5749D19C883C5C5AB554EF";
 
 }
 
