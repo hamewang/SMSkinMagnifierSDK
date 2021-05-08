@@ -10,7 +10,7 @@ PODS:
   - SDWebImage (5.10.4):
     - SDWebImage/Core (= 5.10.4)
   - SDWebImage/Core (5.10.4)
-  - SMSkinMagnifierSDK (1.0):
+  - SMSkinMagnifierSDK (1.1):
     - AliyunOSSiOS
     - CocoaAsyncSocket
     - FMDB
@@ -47,7 +47,7 @@ SPEC CHECKSUMS:
   MJExtension: 88e0900751b6cac8de1cf724ca9838a0b28d5acb
   OpenCV: 52cd4d72ff29e2be83421477aec5447320b7fb19
   SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
-  SMSkinMagnifierSDK: 4c4ef2b8f74a6ad992b9efa803818529a431d83d
+  SMSkinMagnifierSDK: d14d462f4a836f9279ebcc813dcfc8d5a54adf25
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
 PODFILE CHECKSUM: 057fae8aac3adb782b5915dc91f7f30473b8c177
