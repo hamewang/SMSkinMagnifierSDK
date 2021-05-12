@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		390D666525F633E500389B64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390D666425F633E500389B64 /* Main.storyboard */; };
 		39285B6E2611A79B00B8CBF0 /* UIView+SMShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 39285B6D2611A79B00B8CBF0 /* UIView+SMShow.m */; };
+		392BAAEF264A52BD00DE5365 /* SMLinkSetTwoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 392BAAE5264A52BC00DE5365 /* SMLinkSetTwoView.m */; };
+		392BAAF0264A52BD00DE5365 /* SMLinkSetThreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 392BAAE7264A52BC00DE5365 /* SMLinkSetThreeView.m */; };
+		392BAAF1264A52BD00DE5365 /* SMLinkSetOneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 392BAAEA264A52BC00DE5365 /* SMLinkSetOneView.m */; };
+		392BAAF2264A52BD00DE5365 /* JFDCWIFIListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 392BAAEB264A52BC00DE5365 /* JFDCWIFIListCell.m */; };
+		392BAAF3264A52BD00DE5365 /* SMLinkWifiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 392BAAED264A52BC00DE5365 /* SMLinkWifiView.m */; };
+		392BAAF8264A533A00DE5365 /* SMTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 392BAAF7264A533A00DE5365 /* SMTool.m */; };
+		392BAAFF264A53F900DE5365 /* SMConfigDeviceSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 392BAAFE264A53F900DE5365 /* SMConfigDeviceSocket.m */; };
+		392BAB36264A65CD00DE5365 /* MTQRScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 392BAB34264A65CD00DE5365 /* MTQRScanView.m */; };
+		392BAB46264A69C200DE5365 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 392BAB45264A69C200DE5365 /* NetworkExtension.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -44,6 +53,23 @@
 		39285B6C2611A79B00B8CBF0 /* UIView+SMShow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SMShow.h"; sourceTree = "<group>"; };
 		39285B6D2611A79B00B8CBF0 /* UIView+SMShow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SMShow.m"; sourceTree = "<group>"; };
 		392879B62609974C0031F94B /* SMSkinMagnifierSDK_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SMSkinMagnifierSDK_Example.entitlements; sourceTree = "<group>"; };
+		392BAAE5264A52BC00DE5365 /* SMLinkSetTwoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMLinkSetTwoView.m; sourceTree = "<group>"; };
+		392BAAE6264A52BC00DE5365 /* JFDCWIFIListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFDCWIFIListCell.h; sourceTree = "<group>"; };
+		392BAAE7264A52BC00DE5365 /* SMLinkSetThreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMLinkSetThreeView.m; sourceTree = "<group>"; };
+		392BAAE8264A52BC00DE5365 /* SMLinkSetOneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMLinkSetOneView.h; sourceTree = "<group>"; };
+		392BAAE9264A52BC00DE5365 /* SMLinkSetThreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMLinkSetThreeView.h; sourceTree = "<group>"; };
+		392BAAEA264A52BC00DE5365 /* SMLinkSetOneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMLinkSetOneView.m; sourceTree = "<group>"; };
+		392BAAEB264A52BC00DE5365 /* JFDCWIFIListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFDCWIFIListCell.m; sourceTree = "<group>"; };
+		392BAAEC264A52BC00DE5365 /* SMLinkWifiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMLinkWifiView.h; sourceTree = "<group>"; };
+		392BAAED264A52BC00DE5365 /* SMLinkWifiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMLinkWifiView.m; sourceTree = "<group>"; };
+		392BAAEE264A52BD00DE5365 /* SMLinkSetTwoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMLinkSetTwoView.h; sourceTree = "<group>"; };
+		392BAAF6264A533A00DE5365 /* SMTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMTool.h; sourceTree = "<group>"; };
+		392BAAF7264A533A00DE5365 /* SMTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMTool.m; sourceTree = "<group>"; };
+		392BAAFD264A53F900DE5365 /* SMConfigDeviceSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMConfigDeviceSocket.h; sourceTree = "<group>"; };
+		392BAAFE264A53F900DE5365 /* SMConfigDeviceSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMConfigDeviceSocket.m; sourceTree = "<group>"; };
+		392BAB34264A65CD00DE5365 /* MTQRScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTQRScanView.m; sourceTree = "<group>"; };
+		392BAB35264A65CD00DE5365 /* MTQRScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTQRScanView.h; sourceTree = "<group>"; };
+		392BAB45264A69C200DE5365 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		41BC4F5B34F5D6F7DEB67B23 /* Pods_SMSkinMagnifierSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMSkinMagnifierSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57338A7140DEA8585B762B9E /* SMSkinMagnifierSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SMSkinMagnifierSDK.podspec; path = ../SMSkinMagnifierSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* SMSkinMagnifierSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMSkinMagnifierSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +103,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				392BAB46264A69C200DE5365 /* NetworkExtension.framework in Frameworks */,
 				AF826EF1FDE3536EE876A014 /* Pods_SMSkinMagnifierSDK_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +121,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		392BAB73264A80A500DE5365 /* Link */ = {
+			isa = PBXGroup;
+			children = (
+				392BAB75264A80BB00DE5365 /* Other */,
+				392BAB74264A80B400DE5365 /* View */,
+			);
+			name = Link;
+			sourceTree = "<group>";
+		};
+		392BAB74264A80B400DE5365 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				392BAAEC264A52BC00DE5365 /* SMLinkWifiView.h */,
+				392BAAED264A52BC00DE5365 /* SMLinkWifiView.m */,
+				392BAAE6264A52BC00DE5365 /* JFDCWIFIListCell.h */,
+				392BAAEB264A52BC00DE5365 /* JFDCWIFIListCell.m */,
+				392BAAE8264A52BC00DE5365 /* SMLinkSetOneView.h */,
+				392BAAEA264A52BC00DE5365 /* SMLinkSetOneView.m */,
+				392BAAE9264A52BC00DE5365 /* SMLinkSetThreeView.h */,
+				392BAAE7264A52BC00DE5365 /* SMLinkSetThreeView.m */,
+				392BAAEE264A52BD00DE5365 /* SMLinkSetTwoView.h */,
+				392BAAE5264A52BC00DE5365 /* SMLinkSetTwoView.m */,
+				392BAB35264A65CD00DE5365 /* MTQRScanView.h */,
+				392BAB34264A65CD00DE5365 /* MTQRScanView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		392BAB75264A80BB00DE5365 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				392BAAF6264A533A00DE5365 /* SMTool.h */,
+				392BAAF7264A533A00DE5365 /* SMTool.m */,
+				392BAAFD264A53F900DE5365 /* SMConfigDeviceSocket.h */,
+				392BAAFE264A53F900DE5365 /* SMConfigDeviceSocket.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
 		5AB2BDFE4E0636ED828EA307 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +194,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				392BAB45264A69C200DE5365 /* NetworkExtension.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -140,6 +207,7 @@
 		6003F593195388D20070C39A /* Example for SMSkinMagnifierSDK */ = {
 			isa = PBXGroup;
 			children = (
+				392BAB73264A80A500DE5365 /* Link */,
 				6003F59C195388D20070C39A /* SMAppDelegate.h */,
 				6003F59D195388D20070C39A /* SMAppDelegate.m */,
 				6003F5A5195388D20070C39A /* SMViewController.h */,
@@ -374,10 +442,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				392BAAF0264A52BD00DE5365 /* SMLinkSetThreeView.m in Sources */,
+				392BAAF8264A533A00DE5365 /* SMTool.m in Sources */,
+				392BAAF3264A52BD00DE5365 /* SMLinkWifiView.m in Sources */,
+				392BAAEF264A52BD00DE5365 /* SMLinkSetTwoView.m in Sources */,
+				392BAAFF264A53F900DE5365 /* SMConfigDeviceSocket.m in Sources */,
 				6003F59E195388D20070C39A /* SMAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* SMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				39285B6E2611A79B00B8CBF0 /* UIView+SMShow.m in Sources */,
+				392BAB36264A65CD00DE5365 /* MTQRScanView.m in Sources */,
+				392BAAF1264A52BD00DE5365 /* SMLinkSetOneView.m in Sources */,
+				392BAAF2264A52BD00DE5365 /* JFDCWIFIListCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

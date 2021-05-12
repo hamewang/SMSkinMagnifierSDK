@@ -21,6 +21,8 @@
 #import <SkinMagnifierSDK/SMReportInputModel.h>
 #import <SkinMagnifierSDK/SMReportView.h>
 
+#import "SMLinkWifiView.h"
+
 @interface SMViewController ()
 
 @property(nonatomic, strong)NSString *cid;
@@ -61,13 +63,34 @@
     UIButton  *btn1 = [[UIButton alloc] init];
     [btn1 setTitle:@"报告" forState:UIControlStateNormal];
     btn1.backgroundColor = [UIColor redColor];
-    btn1.frame = CGRectMake(200, 200, 50, 50);
+    btn1.frame = CGRectMake(150, 200, 50, 50);
     [btn1 addTarget:self action:@selector(btnClick1:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn1];
+    
+
+    UIButton  *linkBtn = [[UIButton alloc] init];
+    [linkBtn setTitle:@"链接Wi-Fi" forState:UIControlStateNormal];
+    linkBtn.backgroundColor = [UIColor redColor];
+    linkBtn.frame = CGRectMake(250, 200, 100, 50);
+    [linkBtn addTarget:self action:@selector(LinkbtnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:linkBtn];
     
     self.cid = @"1298952";
     self.cgid = @"554EE6D03DE144DEB69320ABB18E7DFD";
 
+}
+- (void)LinkbtnClick:(UIButton *)btn {
+
+    SMLinkWifiView *tView = [[SMLinkWifiView alloc] init];
+    tView.frame = self.view.bounds;
+    [tView sm_showlTBFromSuperView:self.view];
+
+    
+    UIButton *backBtn = [[UIButton alloc] init];
+    backBtn.frame = CGRectMake(25 , 25, 35, 35);
+    [backBtn setImage:[UIImage imageNamed:@"pop_icon_Shut"] forState:UIControlStateNormal];
+    [backBtn addTarget:self action:@selector(backBtnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [tView addSubview:backBtn];
 }
 
 - (void)reportBtnClick:(UIButton *)btn {
